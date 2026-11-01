@@ -1,0 +1,300 @@
+
+/* 支付页整体布局：左侧订单信息，右侧扫码支付 */
+.py-wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 6vw 80px;
+}
+.py-back {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  color: #8b2e1c;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: color 0.25s ease;
+}
+.py-back:hover {
+  color: #5a1d10;
+}
+
+.py-head {
+  margin-bottom: 26px;
+}
+.py-title {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: 6px;
+  color: #2b2117;
+}
+.py-en {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #b3a383;
+}
+
+.py-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(330px, 0.9fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.py-card {
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 10px;
+  padding: 26px;
+}
+.py-card-title {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #2b2117;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #e8dfcc;
+}
+
+.py-course {
+  display: flex;
+  gap: 18px;
+}
+.py-course-cover {
+  flex-shrink: 0;
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+}
+.py-course-glyph {
+  font-size: 38px;
+  color: rgba(245, 239, 228, 0.85);
+  font-weight: 700;
+}
+.py-course-name {
+  margin: 0 0 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #2b2117;
+}
+.py-course-maker {
+  font-size: 13px;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.py-meta {
+  margin: 22px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px dashed #e8dfcc;
+}
+.py-meta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 13px;
+  line-height: 2;
+}
+.py-meta-row dt {
+  color: #8a7860;
+}
+.py-meta-row dd {
+  margin: 0;
+  color: #3a2b1e;
+  font-variant-numeric: tabular-nums;
+}
+
+.py-price {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed #e8dfcc;
+}
+.py-price-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #6b5a44;
+  line-height: 2;
+}
+.py-free {
+  color: #2aae67;
+}
+.py-price-total {
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid #f0e6d4;
+  align-items: baseline;
+  color: #2b2117;
+  font-size: 15px;
+}
+.py-price-total span:last-child {
+  font-size: 28px;
+  font-weight: 700;
+  color: #8b2e1c;
+}
+.py-price-total em {
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* 支付方式切换标签 */
+.py-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.py-tab {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 8px;
+  background: #fff;
+  border: 1px solid #e8dfcc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #6b5a44;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.py-tab:hover {
+  border-color: #cbb594;
+}
+.py-tab-active {
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(139, 46, 28, 0.08);
+}
+.py-tab-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* 二维码区域 */
+.py-qr {
+  position: relative;
+  width: 100%;
+  max-width: 288px;
+  margin: 0 auto;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid var(--accent, #2aae67);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(43, 33, 23, 0.08);
+}
+.py-qr-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.py-qr-expired {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 10px;
+  color: #8b2e1c;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.py-countdown {
+  margin: 16px 0 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b5a44;
+  font-variant-numeric: tabular-nums;
+}
+.py-countdown b {
+  color: #8b2e1c;
+  font-size: 16px;
+}
+.py-scan-tip {
+  margin: 0 0 18px;
+  text-align: center;
+  font-size: 13px;
+  color: #8a7860;
+  letter-spacing: 1px;
+}
+
+.py-pay-btn {
+  width: 100%;
+}
+
+.py-tip {
+  font-size: 12px;
+  color: #a8937a;
+  letter-spacing: 1px;
+  margin: 12px 0 0;
+  text-align: center;
+}
+
+.py-btn {
+  font-size: 14px;
+  padding: 10px 24px;
+  background: transparent;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.py-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.py-btn-solid {
+  background: #8b2e1c;
+  color: #f5efe4;
+  padding: 14px 40px;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+.py-btn-solid:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+.py-btn-solid:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.py-empty {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 100px 8vw;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .py-layout {
+    grid-template-columns: 1fr;
+  }
+  .py-qr {
+    max-width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .py-course {
+    flex-direction: column;
+  }
+  .py-course-cover {
+    width: 100%;
+    height: 120px;
+  }
+}

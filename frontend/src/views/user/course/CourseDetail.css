@@ -1,0 +1,352 @@
+
+
+.course-detail-page {
+  min-height: 100vh;
+  background-color: #f5efe4;
+  background-image:
+    linear-gradient(180deg, rgba(245, 239, 228, 0.90), rgba(245, 239, 228, 0.90)),
+    url('/imgs/course/detail-texture.png');
+  background-size: auto, cover;
+  background-position: center top, center top;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+}
+
+.cd-back-btn {
+  background: transparent;
+  border: none;
+  color: #6b5a44;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 24px;
+  transition: color 0.25s ease;
+}
+.cd-back-btn:hover {
+  color: #8b2e1c;
+}
+
+.detail-hero {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+  background-size: cover;
+  background-position: center;
+}
+.detail-hero.hero-plain {
+  background: #2b2117 url('/imgs/course/fallback.png') center 38% / cover no-repeat;
+}
+.detail-hero.hero-plain .hero-glyph {
+  display: none;
+}
+.hero-glyph {
+  font-size: 120px;
+  color: rgba(245, 239, 228, 0.78);
+  font-weight: 700;
+}
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-mask {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 max(8vw, calc((100% - 1160px) / 2)) 64px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, transparent 35%, rgba(18, 14, 12, 0.78) 100%);
+}
+.hero-badges {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.badge-stage {
+  font-size: 17px;
+  padding: 7px 18px;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  color: #f5efe4;
+}
+.cd-stage-workshop {
+  background: rgba(139, 46, 28, 0.9);
+}
+.cd-stage-course {
+  background: rgba(122, 90, 50, 0.9);
+}
+.cd-stage-master {
+  background: rgba(90, 29, 16, 0.95);
+}
+.cd-badge-flag {
+  font-size: 17px;
+  padding: 7px 18px;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  background: rgba(245, 239, 228, 0.92);
+  color: #8b2e1c;
+}
+.hero-name {
+  font-size: clamp(38px, 3.6vw, 68px);
+  letter-spacing: 16px;
+  line-height: 1.3;
+  color: #f5efe4;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
+  margin: 0 0 18px;
+}
+.hero-maker {
+  font-size: 22px;
+  color: #d8c8ad;
+  letter-spacing: 3px;
+  margin: 0;
+}
+.cd-verified {
+  color: #e8c87a;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.cd-detail-main {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 40px;
+  align-items: start;
+}
+
+.intro-text {
+  font-size: 15px;
+  line-height: 2;
+  color: #4a3b2a;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin: 0 0 14px;
+}
+.intro-desc {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.syllabus {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.lesson {
+  display: flex;
+  gap: 18px;
+  padding: 18px 0;
+  border-bottom: 1px dashed #e8dfcc;
+}
+.lesson-num {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  border-radius: 4px;
+  background: #efe4d0;
+  color: #8b2e1c;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.lesson-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #2b2117;
+  margin: 0 0 6px;
+}
+.lesson-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.cd-master-card {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+}
+.cd-master-glyph {
+  font-size: 32px;
+  color: #f5efe4;
+  font-weight: 700;
+}
+.cd-master-name {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #2b2117;
+  margin: 0 0 6px;
+}
+.cd-master-title {
+  font-size: 13px;
+  color: #8b2e1c;
+  margin: 0 0 10px;
+}
+.cd-master-bio {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #6b5a44;
+  margin: 0 0 12px;
+}
+.cd-master-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  color: #8b2e1c;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.cd-master-link:hover {
+  color: #5a1d10;
+}
+
+.notice-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.notice-item {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #6b5a44;
+}
+.notice-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8b2e1c;
+}
+
+.detail-right {
+  position: sticky;
+  top: 90px;
+}
+.enroll-card {
+  padding: 28px 24px;
+  background: #fffcf5;
+  border: 1px solid #cbb594;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(43, 33, 23, 0.06);
+}
+.enroll-price {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e8dfcc;
+}
+.enroll-price-num {
+  display: block;
+  font-size: 34px;
+  font-weight: 700;
+  color: #8b2e1c;
+  margin-bottom: 6px;
+}
+.enroll-price-note {
+  font-size: 12px;
+  color: #a8937a;
+  letter-spacing: 2px;
+}
+.es-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  border-bottom: 1px dashed #e8dfcc;
+}
+.es-label {
+  color: #a8937a;
+  letter-spacing: 1px;
+}
+.es-val {
+  color: #2b2117;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.cd-btn {
+  width: 100%;
+  padding: 14px;
+  background: #8b2e1c;
+  border: 1px solid #8b2e1c;
+  color: #f5efe4;
+  font-size: 15px;
+  letter-spacing: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.cd-btn:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+.enroll-tip {
+  font-size: 12px;
+  color: #a8937a;
+  text-align: center;
+  margin: 14px 0 0;
+  line-height: 1.6;
+}
+
+.cd-detail-empty .cd-btn {
+  width: auto;
+  display: inline-block;
+  padding: 12px 32px;
+}
+
+@media (max-width: 860px) {
+  .cd-detail-main {
+    grid-template-columns: 1fr;
+  }
+  .detail-right {
+    position: static;
+    order: -1;
+  }
+  .detail-hero {
+    height: 46vh;
+  }
+  .hero-glyph {
+    font-size: 80px;
+  }
+  .hero-mask {
+    padding: 0 24px 40px;
+  }
+  .badge-stage,
+  .cd-badge-flag {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+  .hero-name {
+    font-size: 32px;
+    letter-spacing: 6px;
+  }
+  .hero-maker {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+}

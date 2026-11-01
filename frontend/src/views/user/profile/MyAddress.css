@@ -1,0 +1,105 @@
+
+
+.ma-card {
+  padding: 22px 24px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+.ma-card:hover {
+  border-color: #cbb594;
+  box-shadow: 0 6px 18px rgba(43, 33, 23, 0.06);
+}
+.ma-card-default {
+  border-color: #cbb594;
+  background: #fdfaf2;
+}
+.ma-region-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.ma-region-row .el-input {
+  flex: 1;
+}
+.ma-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.ma-name {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #2b2117;
+  font-weight: 600;
+}
+.ma-phone {
+  font-size: 14px;
+  color: #6b5a44;
+}
+.ma-detail {
+  font-size: 14px;
+  color: #4a3b2a;
+  line-height: 1.7;
+  margin: 0 0 14px;
+}
+.ma-actions {
+  display: flex;
+  gap: 20px;
+  padding-top: 14px;
+  border-top: 1px dashed #e8dfcc;
+}
+.ma-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  color: #8b2e1c;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.ma-link:hover {
+  color: #5a1d10;
+}
+.ma-link-danger {
+  color: #a8937a;
+}
+.ma-link-danger:hover {
+  color: #b73a2a;
+}
+
+.ma-btn {
+  font-size: 13px;
+  padding: 8px 20px;
+  background: transparent;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.ma-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.ma-btn-solid {
+  background: #8b2e1c;
+  color: #f5efe4;
+  padding: 12px 32px;
+  letter-spacing: 4px;
+}
+.ma-btn-solid:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+
+@media (max-width: 860px) {
+  .ma-wrap {
+    grid-template-columns: 1fr;
+    padding: 24px 4vw 60px;
+  }
+}

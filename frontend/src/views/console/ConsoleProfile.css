@@ -1,0 +1,163 @@
+
+.cpf-head {
+  margin-bottom: 22px;
+}
+.cpf-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.cpf-preview-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #a8937a;
+  margin-bottom: 10px;
+}
+.cpf-card {
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 10px;
+  padding: 24px;
+  position: sticky;
+  top: 20px;
+}
+.cpf-card-head {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+.cpf-avatar {
+  flex-shrink: 0;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.cpf-seal {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #8b2e1c;
+  border: 1px solid #8b2e1c;
+  padding: 2px 10px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+.cpf-name {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #2b2117;
+  margin: 0 0 6px;
+}
+.cpf-level {
+  font-size: 13px;
+  color: #6b5a44;
+  letter-spacing: 1px;
+  margin: 0 0 4px;
+}
+.cpf-intro {
+  font-size: 13px;
+  color: #8b2e1c;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.cpf-bio {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #4a3b2a;
+  letter-spacing: 1px;
+  margin: 0 0 16px;
+}
+.cpf-meta-item {
+  font-size: 12px;
+  color: #8a7660;
+  letter-spacing: 1px;
+  background: #f7f0e4;
+  padding: 4px 10px;
+  border-radius: 14px;
+}
+
+.cpf-form-block {
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 10px;
+  padding: 24px;
+}
+.cpf-form {
+  padding-top: 4px;
+}
+.cpf-upload-preview {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cpf-upload-glyph {
+  font-size: 26px;
+  color: rgba(245, 239, 228, 0.9);
+  font-weight: 700;
+}
+.cpf-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #eee3cf;
+}
+
+.cpf-cert-tip {
+  font-size: 13px;
+  color: #a8937a;
+  line-height: 1.6;
+}
+.cpf-cert-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  color: #8b2e1c;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cpf-cert-name:hover {
+  text-decoration: underline;
+}
+.cpf-cert-upload .el-button {
+  margin-top: 2px;
+}
+.cpf-cert-hint {
+  font-size: 12px;
+  color: #b5a68e;
+  margin: 6px 0 0;
+}
+
+.cpf-field-tip {
+  display: block;
+  font-size: 12px;
+  color: #b5a68e;
+  margin-top: 6px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 860px) {
+  .cpf-layout {
+    grid-template-columns: 1fr;
+  }
+  .cpf-card {
+    position: static;
+  }
+}

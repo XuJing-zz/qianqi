@@ -1,0 +1,236 @@
+
+
+.csk-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.csk-add-btn {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #8b2e1c;
+  color: #f5efe4;
+  border: 1px solid #8b2e1c;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.csk-add-btn:hover {
+  background: #5a1d10;
+  border-color: #5a1d10;
+}
+
+.csk-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.csk-tab {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #6b5a44;
+  background: #fdfaf2;
+  border: 1px solid #e0d5c0;
+  border-radius: 20px;
+  padding: 7px 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.csk-tab:hover {
+  border-color: #8b2e1c;
+  color: #8b2e1c;
+}
+.csk-tab-active {
+  background: #8b2e1c;
+  color: #f5efe4;
+  border-color: #8b2e1c;
+}
+.csk-tab-count {
+  display: inline-block;
+  min-width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 9px;
+  background: rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-size: 12px;
+  margin-left: 4px;
+  padding: 0 5px;
+}
+.csk-tab-active .csk-tab-count {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.csk-card {
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+.csk-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.csk-cover {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+  color: rgba(245, 239, 228, 0.9);
+  font-size: 22px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.csk-name {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #2b2117;
+  margin: 0 0 3px;
+}
+.csk-badge {
+  font-size: 12px;
+  padding: 2px 12px;
+  border: 1px solid;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.csk-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4a3b2a;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+}
+
+.csk-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.csk-block-label {
+  font-size: 13px;
+  color: #8a7660;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+.csk-tag {
+  font-size: 12px;
+  color: #8b2e1c;
+  background: #f7f0e4;
+  border: 1px solid #eadfc7;
+  border-radius: 12px;
+  padding: 2px 10px;
+  letter-spacing: 1px;
+}
+.csk-tag-alt {
+  color: #6b5a44;
+}
+.csk-tag-course {
+  color: #1e6fb8;
+  border-color: #d0e0f0;
+  background: #f2f7fc;
+}
+
+.csk-reject {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #c62828;
+  background: #fdf0f0;
+  border-left: 3px solid #c62828;
+  padding: 8px 12px;
+  margin: 10px 0;
+  border-radius: 0 4px 4px 0;
+}
+.csk-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.csk-btn {
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 6px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #fdfaf2;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.csk-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.csk-btn-primary {
+  background: #8b2e1c;
+  color: #f5efe4;
+  border-color: #8b2e1c;
+}
+.csk-btn-primary:hover {
+  background: #5a1d10;
+  border-color: #5a1d10;
+}
+.csk-btn-warn {
+  border-color: #b8860b;
+  color: #b8860b;
+}
+.csk-btn-plain {
+  border-color: #d8c9a8;
+  color: #a8937a;
+  cursor: not-allowed;
+}
+.csk-btn-plain:hover {
+  background: #fdfaf2;
+  color: #a8937a;
+}
+.csk-btn-danger {
+  border-color: #e0b0b0;
+  color: #c62828;
+}
+.csk-btn-danger:hover {
+  background: #c62828;
+  color: #fff;
+}
+
+.csk-empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+.csk-empty-glyph {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #f7f0e4;
+  color: #cbb594;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.csk-empty-text {
+  font-size: 14px;
+  color: #a8937a;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.csk-form {
+  padding-top: 4px;
+}

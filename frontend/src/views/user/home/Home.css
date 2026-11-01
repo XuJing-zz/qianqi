@@ -1,0 +1,424 @@
+
+.home {
+  width: 100%;
+  background: #f5efe4;
+  color: #2b2117;
+}
+
+.opening {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(ellipse at 78% 20%, rgba(139, 46, 28, 0.10), transparent 55%),
+    linear-gradient(180deg, rgba(245, 239, 228, 0.92) 0%, rgba(245, 239, 228, 0.42) 48%, rgba(245, 239, 228, 0.92) 100%),
+    url('/imgs/home/hero.jpg') center / cover no-repeat,
+    #f5efe4;
+  position: relative;
+}
+.opening-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px 8vw;
+  align-items: center;
+}
+.opening-title {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.seal {
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 18px;
+  letter-spacing: 2px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.opening-main {
+  margin: 0;
+  font-size: clamp(56px, 9vw, 112px);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: 8px;
+  color: #2b2117;
+}
+.opening-poem {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #4a3b2a;
+  line-height: 1.8;
+}
+.opening-line {
+  width: 56px;
+  height: 2px;
+  background: #8b2e1c;
+}
+.opening-note {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.opening-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.btn-solid {
+  display: inline-block;
+  padding: 12px 36px;
+  background: #8b2e1c;
+  color: #f5efe4;
+  letter-spacing: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn-solid:hover {
+  background: #6f2416;
+}
+.btn-void {
+  display: inline-block;
+  padding: 12px 36px;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  letter-spacing: 4px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.btn-void:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+
+.prelude {
+  padding: 40px 8vw;
+  background:
+    linear-gradient(180deg, rgba(245, 239, 228, 0.55), rgba(245, 239, 228, 0.88)),
+    url('/imgs/home/prelude-bg.jpg') center / cover no-repeat,
+    #f5efe4;
+}
+.prelude-text {
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #7a6a52;
+  line-height: 2.2;
+}
+
+.scroll {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 8vw;
+  border-top: 1px solid #e0d5c0;
+  border-bottom: 1px solid #e0d5c0;
+}
+.scroll-num {
+  text-align: left;
+}
+.scroll-num-val {
+  font-size: 44px;
+  font-weight: 700;
+  color: #8b2e1c;
+}
+.scroll-num-label {
+  margin-top: 6px;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #7a6a52;
+}
+
+.craft {
+  padding: 72px 8vw;
+  background:
+    linear-gradient(180deg, rgba(245, 239, 228, 0.55), rgba(245, 239, 228, 0.85)),
+    url('/imgs/home/craft-bg.jpg') center / cover no-repeat,
+    #f5efe4;
+}
+.craft-title {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: 10px;
+  color: #2b2117;
+}
+.craft-en {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #b3a383;
+}
+.craft-list {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 80px;
+  gap: 18px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.craft-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e8dec8;
+  overflow: hidden;
+}
+
+.craft-item.craft-tall {
+  justify-content: center;
+}
+
+.craft-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.craft-item {
+  opacity: 0;
+  transform: translateY(80px) scale(0.8);
+  transition:
+    transform 0.9s cubic-bezier(0.34, 1.56, 0.64, 1),
+    opacity 0.7s ease;
+}
+.craft-item:nth-child(odd) {
+  transform: translateX(-120px) translateY(40px) scale(0.85);
+}
+.craft-item:nth-child(even) {
+  transform: translateX(120px) translateY(40px) scale(0.85);
+}
+.craft-item.in {
+  opacity: 1;
+  transform: translateX(0) translateY(0) scale(1);
+}
+
+.craft-glyph {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 23px;
+  flex-shrink: 0;
+}
+.craft-name {
+  margin: 0 0 3px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #2b2117;
+}
+.craft-desc {
+  margin: 0 0 4px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6b5a42;
+}
+.craft-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.craft-more {
+  margin-top: 44px;
+  text-align: center;
+}
+.craft-more-btn {
+  display: inline-block;
+  padding: 12px 44px;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.craft-more-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+
+.masters {
+  padding: 72px 8vw;
+  background:
+    radial-gradient(ellipse at 50% 55%, rgba(20, 14, 10, 0.10), rgba(20, 14, 10, 0.55)),
+    linear-gradient(180deg, rgba(28, 20, 14, 0.52), rgba(28, 20, 14, 0.28) 45%, rgba(28, 20, 14, 0.78)),
+    url('/imgs/home/masters-bg.jpg') center / cover no-repeat,
+    #efe7d7;
+  color: #f5efe4;
+}
+.masters-title {
+  margin: 0 0 48px;
+  font-size: 34px;
+  letter-spacing: 10px;
+  color: #f5efe4;
+}
+.masters-stage {
+  position: relative;
+  height: 620px;
+  perspective: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masters-ring {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.master {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  margin-top: -130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 16px 120px;
+  background: linear-gradient(180deg, #f7ead2 0%, rgba(247, 234, 210, 0.55) 55%, rgba(247, 234, 210, 0) 100%);
+  border: 1px solid rgba(139, 46, 28, 0.45);
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  backface-visibility: hidden;
+  text-decoration: none;
+  cursor: pointer;
+}
+.master::before {
+  content: '';
+  width: 100%;
+  height: 4px;
+  margin-bottom: 6px;
+  background: #8b2e1c;
+}
+.master-glyph {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 28px;
+}
+.master-name {
+  font-size: 22px;
+  letter-spacing: 6px;
+  color: #2b2117;
+}
+.master-role {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #8b2e1c;
+}
+.ring-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(245, 239, 228, 0.75);
+  background: rgba(20, 14, 10, 0.28);
+  color: #f5efe4;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s ease, color 0.2s ease;
+  z-index: 10;
+}
+.ring-btn:hover {
+  background: #f5efe4;
+  color: #8b2e1c;
+}
+.ring-btn.prev { left: 4%; }
+.ring-btn.next { right: 4%; }
+.masters-more {
+  margin-top: 20px;
+  text-align: center;
+}
+.masters-more-btn {
+  display: inline-block;
+  padding: 12px 44px;
+  border: 1px solid rgba(245, 239, 228, 0.85);
+  color: #f5efe4;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.masters-more-btn:hover {
+  background: #f5efe4;
+  color: #2b2117;
+}
+
+.enroll {
+  padding: 80px 8vw;
+  text-align: center;
+  background:
+    linear-gradient(180deg, rgba(245, 239, 228, 0.55), rgba(245, 239, 228, 0.9)),
+    url('/imgs/home/enroll-bg.jpg') center / cover no-repeat,
+    #f5efe4;
+}
+.enroll-seal {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 2px solid #8b2e1c;
+  color: #8b2e1c;
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin-bottom: 24px;
+}
+.enroll-text {
+  margin: 0 0 28px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #7a6a52;
+}
+
+@media (max-width: 768px) {
+  .opening-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .scroll {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .craft-item,
+  .craft-item.offset {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .masters-stage {
+    height: 300px;
+  }
+  .ring-btn.prev { left: 0; }
+  .ring-btn.next { right: 0; }
+}

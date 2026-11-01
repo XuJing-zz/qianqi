@@ -1,0 +1,134 @@
+
+
+.bodybox {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #1a1512 0%, #120e0c 100%);
+  border-top: 1px solid rgba(212, 165, 74, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.bodybox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(212, 165, 74, 0.6), transparent);
+  z-index: 3;
+}
+
+.foot-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 32px;
+  z-index: 2;
+}
+
+.foot-text .main {
+  text-align: center;
+  font-family: var(--font-serif, 'STKaiti', serif);
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #cbb58a;
+}
+.foot-text .foot-icp {
+  font-family: var(--font-sans, inherit);
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(203, 181, 138, 0.65);
+}
+
+.foot-text .nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-text .nav a {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #a99c86;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.foot-text .nav a:hover {
+  color: var(--lacquer-gold-light, #e8c87a);
+}
+
+.hover-up {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 120px;
+  flex-shrink: 0;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  z-index: 1;
+}
+
+.hover-up {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 120px;
+  flex-shrink: 0;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  z-index: 1;
+}
+
+.hover-card {
+  flex: 1 1 0%;
+  min-width: 0;
+  max-width: none;
+  height: 100%;
+  background: linear-gradient(180deg, #8f1f12 0%, #5d140c 100%);
+  cursor: pointer;
+  transform: none;
+  transition: height 0.25s cubic-bezier(0.2, 0.7, 0.3, 1),
+              box-shadow 0.25s ease;
+  will-change: height;
+}
+
+.hover-card + .hover-card {
+  margin-left: -1px;
+}
+
+.hover-card:hover,
+.hover-card.active {
+  box-shadow: 0 -10px 24px rgba(212, 165, 74, 0.25);
+}
+
+@media (max-width: 768px) {
+  .bodybox {
+    height: 220px;
+  }
+  .foot-text .main {
+    font-size: 14px;
+  }
+  .foot-text .nav a {
+    font-size: 13px;
+  }
+  .foot-text .nav ul {
+    gap: 20px;
+  }
+  .hover-up {
+    height: 100px;
+  }
+}

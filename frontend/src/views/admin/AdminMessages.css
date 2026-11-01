@@ -1,0 +1,125 @@
+
+.amsg-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.amsg-card {
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-left: 3px solid #8b2e1c;
+  border-radius: 8px;
+  padding: 14px 18px;
+  transition: all 0.25s ease;
+}
+.amsg-card-handled {
+  border-left-color: #2e7d32;
+}
+
+.amsg-status {
+  flex-shrink: 0;
+  font-size: 12px;
+  padding: 2px 10px;
+  border: 1px solid;
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+.amsg-subject {
+  font-size: 12px;
+  color: #6b5a44;
+  background: #f3ecdf;
+  border-radius: 4px;
+  padding: 2px 8px;
+  letter-spacing: 1px;
+}
+.amsg-from {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.amsg-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.amsg-btn {
+  font-size: 13px;
+  color: #1e6fb8;
+  background: transparent;
+  border: 1px solid #1e6fb8;
+  border-radius: 5px;
+  padding: 3px 12px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+.amsg-btn:hover {
+  background: #1e6fb8;
+  color: #fff;
+}
+.amsg-btn-solid {
+  background: #8b2e1c;
+  border-color: #8b2e1c;
+  color: #fff;
+}
+.amsg-btn-solid:hover {
+  background: #a03a25;
+  border-color: #a03a25;
+}
+.amsg-btn-del {
+  color: #c62828;
+  border-color: #c62828;
+}
+.amsg-btn-del:hover {
+  background: #c62828;
+  color: #fff;
+}
+
+.amsg-message {
+  font-size: 14px;
+  color: #4a3a2c;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin: 10px 0 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.amsg-reply {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  background: #f1f7f1;
+  border: 1px solid #cfdfcf;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.amsg-reply-tag {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: #2e7d32;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.amsg-reply-text {
+  font-size: 13px;
+  color: #2b5e2b;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.amsg-editor {
+  margin-top: 12px;
+  border-top: 1px dashed #e0d5c0;
+  padding-top: 12px;
+}
+.amsg-editor-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}

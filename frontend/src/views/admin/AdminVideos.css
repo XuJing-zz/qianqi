@@ -1,0 +1,123 @@
+
+.avr-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 18px;
+  color: #6b5a44;
+  font-size: 13px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.avr-tab:hover {
+  border-color: #1c2a33;
+  color: #1c2a33;
+}
+.avr-tab-active {
+  background: #1c2a33;
+  border-color: #1c2a33;
+  color: #f5efe4;
+}
+.avr-tab-active .avr-tab-count {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.avr-card {
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+.avr-body {
+  padding: 18px 22px;
+}
+.avr-body-top {
+  margin-bottom: 8px;
+}
+.avr-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+.avr-video {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+.avr-video-el {
+  width: 320px;
+  max-height: 200px;
+  border-radius: 6px;
+  background: #2b2117;
+}
+.avr-btn-pass {
+  background: #2e7d32;
+  border: 1px solid #2e7d32;
+  color: #fff;
+}
+.avr-btn-pass:hover {
+  background: #1b5e20;
+}
+.avr-btn-reject {
+  background: #fffcf5;
+  border: 1px solid #c62828;
+  color: #c62828;
+}
+.avr-btn-reject:hover {
+  background: #c62828;
+  color: #fff;
+}
+.avr-btn-view {
+  background: #fffcf5;
+  border: 1px solid #1c2a33;
+  color: #1c2a33;
+}
+.avr-btn-view:hover {
+  background: #1c2a33;
+  color: #fff;
+}
+.avr-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a8937a;
+  margin: 0 0 12px;
+}
+
+.avr-detail-value {
+  color: #4a3b2a;
+  letter-spacing: 1px;
+  word-break: break-word;
+}
+.avr-detail-video {
+  margin: 4px 0;
+}
+.avr-detail-video-el {
+  width: 100%;
+  max-height: 320px;
+  border-radius: 6px;
+  background: #2b2117;
+}
+.avr-detail-novideo {
+  font-size: 13px;
+  color: #a8937a;
+  letter-spacing: 1px;
+  padding: 20px;
+  text-align: center;
+  border: 1px dashed #d4c58a;
+  border-radius: 6px;
+  background: #f7f0e4;
+}
+
+@media (max-width: 860px) {
+  .avr-video-el {
+    width: 100%;
+  }
+}

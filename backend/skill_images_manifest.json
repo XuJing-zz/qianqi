@@ -1,0 +1,572 @@
+{
+ "野王纻器制作技艺": {
+  "cover": "",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/29b5eb7a1b414d28929a3834aca21044.jpg",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/20e9299ffb3c4904a6012ec9ddc1128b.jpg",
+   ""
+  ]
+ },
+ "大漆镶嵌髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/abaa4346ce4d4205a22e352fe525d5b3.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/f5dce7c4c89b4c6eaffa6bfc73c0d095.jpg",
+   "",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/b1e555c8d4614a1ba5c3115a33e2b209.jpg",
+   "http://127.0.0.1:8001/media/skill_images/80ed8048b72b4cbb822b8bfdd5920ab0.jpg"
+  ]
+ },
+ "金漆镶嵌工艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/4f66dc0b6b7e42b89b607f9a4b5615c7.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/b8f683a28d744b7c8d11ae93c182b964.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/509e8722b9f74f5a8bb476ff8a7a9d28.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/5f5feb14221143dc8d398a17d446d97a.jpg",
+   "http://127.0.0.1:8001/media/skill_images/10e2d5b176264097a66b55f7c3b53f7c.jpg"
+  ]
+ },
+ "漆刻（昭通漆刻）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/96274d64d098417e8e383106755fdf79.jpg",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/c9375f9003154ad4ac4d78bc481c40e9.jpg",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/608ae9a345f4433dbf499ccecc2b233f.jpg",
+   "http://127.0.0.1:8001/media/skill_images/1e1b1a7658214efdb60e97c8568ccc9e.jpg"
+  ]
+ },
+ "傣族漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/f6ac244a1e0147b7b49d518ebb266078.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/f638bef0e24643eb82259b9ec697b3e4.jpg",
+   "http://127.0.0.1:8001/media/skill_images/9fedaf84e3584c238d8340b52b6a7553.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/55b446b6d53647dca6ab384b6bcdb616.jpg",
+   "http://127.0.0.1:8001/media/skill_images/4d2ec88f027a4b77b3b295804547d9ca.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/dafd61819cc941ec890b5e0ac6ecbb53.jpg",
+   "http://127.0.0.1:8001/media/skill_images/3eef2e34ebb34ddb9460e2a9241b431d.jpg"
+  ]
+ },
+ "金漆画（普宁铁笔金漆画）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/9884ff34501d4fc9a5a98a1e628b7555.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/327e0cdbdb974ac3babdd8e371cec316.jpg",
+   "http://127.0.0.1:8001/media/skill_images/1714bfc58e704de6920b74a2c7fbf58a.jpg",
+   "",
+   ""
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/27cf91ca72e841868664543b07f68ef3.jpg"
+  ]
+ },
+ "漆器髹饰技艺（阳江漆器髹饰技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/2f2a41288ea24f58a4ed839dcc77896c.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/0bf7e4a31be94a9eb54740404c16644a.jpg",
+   "",
+   "",
+   ""
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/4e225317663a473fa86502b86f449980.jpg"
+  ]
+ },
+ "上海漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/9ab861644cb54718b1c5489a7d20ec2b.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/3cb5df7855f0435a93a2d2216699991c.jpg",
+   "http://127.0.0.1:8001/media/skill_images/8bc04fe6dfe045d4870483abff25c5db.jpg",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/2428144da394434b8d6397df26a5a266.jpg",
+   ""
+  ]
+ },
+ "桂林漆器制作技艺": {
+  "cover": "",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/40b7e64ff9f24497840c09bc8a14e128.jpg",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/df929f0c02fa47d1af20acf1a0edbbe1.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/e66f7b162441491aab178c34870f0740.jpg",
+   "http://127.0.0.1:8001/media/skill_images/d457de26cf1e4ad8a95cfb4012ae47a7.jpg"
+  ]
+ },
+ "漆器髹饰技艺（潍坊嵌银髹漆技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/03a2f0c02bb8468fa53bdd37a02e4f29.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/7b23bb885216484ea19db850d27a4b9b.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/f7d4dd2c56de4fed9dae3439de49d1cb.jpg",
+   "http://127.0.0.1:8001/media/skill_images/3ac5ad1d893447748193ee52611f1ae0.jpg",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/5ab97149d4074c0384d13c74f11d05df.jpg",
+   "http://127.0.0.1:8001/media/skill_images/7819c570185d47cbab5cd5a0aa7b0ab2.jpg"
+  ]
+ },
+ "脱胎漆器髹饰技艺": {
+  "cover": "",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/1f4ca626f855488a8a20c5af8f41503a.jpg",
+   "http://127.0.0.1:8001/media/skill_images/b226eca7814446c8ae94e9043099b517.jpg",
+   "http://127.0.0.1:8001/media/skill_images/c481f1a6b796436caf8b4cd462ae88b8.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/3d64d612dd7544a9931a6a95e9a5f66d.jpg",
+   "http://127.0.0.1:8001/media/skill_images/1b67dc70988b4f999ea5af58126a297b.jpg"
+  ]
+ },
+ "雕填漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/b9caf1934ab441f5ab0a889608cc9861.jpg",
+  "steps": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/b4187b0abb28400999040485a51e1df3.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/ab88afe59d7d41f590819b56f045318b.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/f1cb8e981b8c4d93aa74e44c58411ff9.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/2ea140b817014433b92311dbefdc7d06.jpg",
+   "http://127.0.0.1:8001/media/skill_images/04d9c7feec8c4730adc74f04128759a1.jpg"
+  ]
+ },
+ "凤翔罩金漆器制作技艺": {
+  "cover": "",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/881e73acbd74467ba9e3ef837bf8c798.jpg",
+   "http://127.0.0.1:8001/media/skill_images/b28277862c17420e944ff8e99c96a84c.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/1a9751debac64457bdfddf19a48688bf.jpg",
+   "http://127.0.0.1:8001/media/skill_images/5b25d79966f34e5f8b5f8ecb272bb99e.jpg"
+  ]
+ },
+ "雕漆技艺（天水雕漆技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/31e697a9261e4915a7505123df5616dd.jpg",
+  "steps": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/d62976bba0b041ef9e676325c787f526.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/5397f79f67134ddfbbcccced6542f9c4.jpg",
+   "http://127.0.0.1:8001/media/skill_images/e61afebbdc8c4ee589c604e7cccf6fb7.jpg",
+   ""
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/1af8e97a2b3f4ec19d7e6910c91fe7ff.jpg"
+  ]
+ },
+ "婺源菠萝漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/6e5df50a8e534cdda69f66efcdeb8a2a.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/6e8b5b5113de402083931e73fd8d1a5a.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/1158ff7f958d491d9130f598ee6b7d63.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/26f2648ad13149d98c9e6581f658ccef.jpg",
+   "http://127.0.0.1:8001/media/skill_images/0f0722b785a142188d2627bece9b4562.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/4344f1e5f3e94df3a7bb9358869fd5af.jpg",
+   "http://127.0.0.1:8001/media/skill_images/68b0c2117a284b4d9b48dfd39c5c653e.jpg"
+  ]
+ },
+ "漆器髹饰技艺（鄱阳脱胎漆器髹饰技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/e051277be05f45609958f3360350c47f.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/8adb3435726944089cdca04fec363c34.jpg",
+   "http://127.0.0.1:8001/media/skill_images/32fedebcb5ab4f47bc5668f66d0c80eb.jpg",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/4c3bf0155ece483f8e9b412514955a90.jpg",
+   ""
+  ],
+  "cards": [
+   "",
+   ""
+  ]
+ },
+ "彝族漆器髹饰技艺（大方漆器）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/1e509099f1a7403caf1a2c355e3b1d43.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/335b6ba52d9c40d7a868ceb4ef31acde.jpg",
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/4e03921088194e90ba8e3c97fc8e0727.jpg",
+   "http://127.0.0.1:8001/media/skill_images/9257bc7f19d2455986ce2f1888b13271.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/b94df814ff0548a4bf31fa9ddaaae242.jpg",
+   ""
+  ]
+ },
+ "彝族皮胎漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/d2a8d7cc9e804cff9cea24128978654a.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/21a7414c25b5421fb156f2f06f3e9ef1.jpg",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/3278c44ce93c43d7a7a62dc8897b5fd5.jpg",
+   "http://127.0.0.1:8001/media/skill_images/021a2a3687d1425aa2adb7b72ed14258.jpg",
+   "http://127.0.0.1:8001/media/skill_images/c88d7c5677eb4cc2b4b237e667897134.jpg"
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/3fcca0372df84a52a0ab10fc5cc5abff.jpg"
+  ]
+ },
+ "彝族漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/a46b61c917434dd5a76442c46f303216.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/2cbf72423a214d4f9ad906058c3370e8.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/7964f67a914f4acf98fa3d9d7442ab82.jpg",
+   "http://127.0.0.1:8001/media/skill_images/edf2bc15695a4c5594128419743ea562.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/1273ea3b3a034d9da76da16cdfe3b633.jpg",
+   "http://127.0.0.1:8001/media/skill_images/36900503e1374689a764d79e628519f8.jpg"
+  ]
+ },
+ "重庆漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/880279e8ba7a4608a89f61906dc14cbb.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/6922a9a6d60844168508a587ab916fc6.jpg",
+   "http://127.0.0.1:8001/media/skill_images/f00029541b094016bf3bf9a4931e9882.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/fed43549fe7e42fc96d96cf126d1687a.jpg"
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/b3cc03f45f28457ab63a9a11066c1a7c.jpg"
+  ]
+ },
+ "制漆技艺（坝漆制作技艺）": {
+  "cover": "",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/400e8da9b988422b8855394233f0d927.jpg",
+   "http://127.0.0.1:8001/media/skill_images/93c5eb3bb73e43be82769ccbb1562e14.jpg",
+   "http://127.0.0.1:8001/media/skill_images/890251e5129b472bb705153209755ccf.jpg",
+   "",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/69e198893dc04ae3b4672bc517f580a8.jpg",
+   "http://127.0.0.1:8001/media/skill_images/a8d12aabbc60404d87c4b898b7a88657.jpg"
+  ]
+ },
+ "楚式漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/6a7d2d34354849d7a0786749e6ae5752.jpg",
+  "steps": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/3472a64ec6264b798eeaab8a4da30b7b.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/9458b09fe6824c44b36d9cec08396224.jpg",
+   "http://127.0.0.1:8001/media/skill_images/84aba04a6d2447548c56d742950c2f0e.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/9f354623efd5464eade59ef5a289a1b8.jpg",
+   "http://127.0.0.1:8001/media/skill_images/57214ecac7424cd2bdd8d1ce2043b413.jpg"
+  ]
+ },
+ "徽州漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/d33a164df73b408b871d9ba33b32ff79.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/5ce3f52a2d1142248097598ee99f659a.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/7a664df4357a48b5b8b88a7c12c73c33.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/003ea597fe244479a52ffd1bac6dd7aa.jpg",
+   "http://127.0.0.1:8001/media/skill_images/4fc7ba82ea6c4b3caac465fe9c565b52.jpg"
+  ]
+ },
+ "平阳漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/cefbde4c3a53496a8dc1b1318d4163dd.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/9281b585f71e44639c69ee14ee640b9a.jpg",
+   "",
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/198caf30ab4f4493a1cd44da037ec491.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/536773b2dc2b4bd8b1c1e94edf788b9c.jpg",
+   "http://127.0.0.1:8001/media/skill_images/bbd795a076534db58e13cb38182b8028.jpg"
+  ]
+ },
+ "宁波朱金漆木雕": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/b840b03e2abd4354998c2508cf10d969.jpg",
+  "steps": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/de69224226314470bf37f3d05aa1441a.jpg",
+   "http://127.0.0.1:8001/media/skill_images/7b05b307c219479caa0a124f8d5fab30.jpg",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/74b6a18e982a459ba6c760cdee482764.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/9ddd64be9a37403ebfd85bd4bb44c357.jpg",
+   "http://127.0.0.1:8001/media/skill_images/27166e784ce1413d8babc3c8c38718ea.jpg"
+  ]
+ },
+ "宁波泥金彩漆": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/96f91b5212d246a1a16ec37c509edd5b.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/7f162921361f429c90e73fd2500c5e2c.jpg",
+   "http://127.0.0.1:8001/media/skill_images/dd629fc2ed8f4408a1751ed4246668f4.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/1b606c5478d448b1bff793a5c0a27301.jpg",
+   "http://127.0.0.1:8001/media/skill_images/5ff5a07b0d8d465782a1cc8d41f50d27.jpg",
+   "http://127.0.0.1:8001/media/skill_images/86b1c8cf26ab44e4b4a077d42ad6058c.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/17bf588042ca4961b9a7688537722a0e.jpg",
+   "http://127.0.0.1:8001/media/skill_images/8b97c3ad09844455971e904b8a4f442d.jpg"
+  ]
+ },
+ "天台山干漆夹苎技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/d24d295b291445a9a5ecb0cb5feb31b1.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/e071fb64432f491c9585cbaa1f65d88a.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/e6cbb0c6e46b4668abc658ba8e2c8b74.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/478a3173c41046539d9ee96e639f2b28.jpg",
+   "http://127.0.0.1:8001/media/skill_images/327dbf20becc4ef6a363d9cddfe7844b.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/3b71cadd407a4854805a4ef6f0ec2991.jpg",
+   "http://127.0.0.1:8001/media/skill_images/f5b9fcb463f74881964048c44b223c0c.jpg"
+  ]
+ },
+ "漆线雕（泉州）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/394ded4c0d764b628357e45af9b22ca1.jpg",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/4543b5e6996f4bfabb177e1947492da8.jpg",
+   "http://127.0.0.1:8001/media/skill_images/2423f759b0ac49e7853ca53e4c0811f3.jpg",
+   "http://127.0.0.1:8001/media/skill_images/c16e90b6822b4f5987b06f87e258d4e9.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/1940ab1176eb4e7780efd9ec367cb8d0.jpg",
+   "http://127.0.0.1:8001/media/skill_images/35437e0feaa44e4f868caebde68bbcaa.jpg"
+  ]
+ },
+ "厦门漆线雕技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/490d4f967ad54c2a852b50b8ec053ea9.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/577f681baed64c03bad7abcc9d7656eb.jpg",
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/37513b3900484f87ac0e55795052cec6.jpg",
+   "http://127.0.0.1:8001/media/skill_images/187dc00b80d94985a49dadc1ee47e2e8.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/08b86ba43abb43469268f15e935abcc7.jpg",
+   "http://127.0.0.1:8001/media/skill_images/7a4c9dc3b5a04a5f889e567f5ee67f66.jpg"
+  ]
+ },
+ "福州脱胎漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/0bd541069a864113a892a697ed4c11f1.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/0d3d01fc6be54136babca5a96258238e.jpg",
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/c1826f8ec10b423ba768663342bc87ca.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/427d1776fe5e42e5aba6d25bb7354e2c.jpg",
+   "http://127.0.0.1:8001/media/skill_images/a3ba1101bdfe4a7f96cc5440757624fa.jpg"
+  ]
+ },
+ "苏州漆器制作技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/788fe2aa65a24359b40e4e99a30e834f.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/70d86b5848534a72bc98cf9b23f696e2.jpg",
+   "http://127.0.0.1:8001/media/skill_images/0c49566896c14b3180d7f62e03d2fa38.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/c79ebad9aa8041c4b356c6e52662a90e.jpg",
+   "http://127.0.0.1:8001/media/skill_images/9c8489117bcb40f58f7e2e23c7cdf815.jpg",
+   "http://127.0.0.1:8001/media/skill_images/373105f612c84a5c88799544d27eeb4e.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/0050a722e7ae4d859f6ac03088bd84ad.jpg",
+   "http://127.0.0.1:8001/media/skill_images/68f47af8bddb4829be9f6ea5b139b8d8.jpg"
+  ]
+ },
+ "扬州漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/f2a1006bac3e4a10acaeab190eeb0c50.jpg",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/7772e056de474303a6b8b668d99463bb.jpg",
+   "http://127.0.0.1:8001/media/skill_images/1e9754c68e6b486e92869bee4a6fabab.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/68c0ee85e5ac4490af9807c956cbeba1.jpg",
+   "http://127.0.0.1:8001/media/skill_images/a00df10c1c3f446f8e80c1ea3e2ac5c3.jpg"
+  ]
+ },
+ "漆器髹饰技艺（稷山螺钿漆器髹饰技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/6699a623ad2d4c22b704b315a2f7d3f7.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/98ec8589388f4d2e87776e4b5cf423ee.jpg",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/ca0e9e6e000a40aa85f58f14c9a89822.jpg",
+   "http://127.0.0.1:8001/media/skill_images/0c1044c681fe4cc9858ce027f7ee3237.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/0f06ec0ebeed431280f0e34a0018cb9f.jpg",
+   "http://127.0.0.1:8001/media/skill_images/107b5586a13846848f64109a57bca50e.jpg"
+  ]
+ },
+ "漆器髹饰技艺（绛州剔犀技艺）": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/3be3c1202bd547d486c603179363714b.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/fd30bdc4e1de4462a2c4805918e1fcfd.jpg",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/578d85d5d10944089e1b6798eea0ea3d.jpg",
+   "http://127.0.0.1:8001/media/skill_images/7aed7b86768f489b945c19dfa081e857.jpg"
+  ]
+ },
+ "平遥推光漆器髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/68cf5fb235f6493481635bc1c362f048.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/efc0af894454403d88696efd93d8a8d2.jpg",
+   "http://127.0.0.1:8001/media/skill_images/42524523ea8845e9bac910b702987722.jpg",
+   "http://127.0.0.1:8001/media/skill_images/42409dfd73c247b2b0466bc339c249bd.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/52aecad82d91483dbe65393402eebe5b.jpg",
+   "http://127.0.0.1:8001/media/skill_images/da24fde9f07d4dcd8d29472ebcb76ebc.jpg"
+  ]
+ },
+ "金漆镶嵌髹饰技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/1e579198e37d44c390d1c1543a80b7d9.jpg",
+  "steps": [
+   "",
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/3593a5d0e0f14244b7c4db3376cbfd17.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/d251c6f358a246b298b5ff0f2482caa0.jpg"
+  ],
+  "cards": [
+   "",
+   "http://127.0.0.1:8001/media/skill_images/db6d0037334e43d0b53c3e4270be9f31.jpg"
+  ]
+ },
+ "雕漆技艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/94bf5f052ee242dbb8c441b3071110bb.jpg",
+  "steps": [
+   "",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/a25c5124350b4dfeab0b399fbcbb8610.jpg",
+   "http://127.0.0.1:8001/media/skill_images/6259ac381b6b43cdafd8545dcf94600e.jpg",
+   "http://127.0.0.1:8001/media/skill_images/f147f37aa0884606bac147bfdb63a997.jpg",
+   ""
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/346234e0f20a47c29c3553f9b6da640f.jpg",
+   "http://127.0.0.1:8001/media/skill_images/8bb682f841e542c2893fb7ab2216a6ce.jpg"
+  ]
+ },
+ "成都漆艺": {
+  "cover": "http://127.0.0.1:8001/media/skill_images/88661f1b9b1c460d8e0da0663e695dfa.jpg",
+  "steps": [
+   "http://127.0.0.1:8001/media/skill_images/d5a77ef9ccc740fc9d314d947816cb60.jpg",
+   "",
+   "http://127.0.0.1:8001/media/skill_images/f1739829a0fe4b4ea2f4f4e0dbf1a659.jpg",
+   "http://127.0.0.1:8001/media/skill_images/10445ee92fde46feb615be90a0860369.jpg",
+   "http://127.0.0.1:8001/media/skill_images/ac8f7db887a247c9a140e9c767900247.jpg",
+   "http://127.0.0.1:8001/media/skill_images/2c1919fa0479421bac05ae650442263d.jpg"
+  ],
+  "cards": [
+   "http://127.0.0.1:8001/media/skill_images/d3b35e04677c4974bb25d784b4b81225.jpg",
+   "http://127.0.0.1:8001/media/skill_images/d3ba2ac0febf484e80ee73179e200d1e.jpg"
+  ]
+ }
+}

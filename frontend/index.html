@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>漆器非遗传承平台</title>
+    <style>
+      /* :root 即 <html> 元素。这里定义一个 CSS 自定义属性（CSS 变量）--font-sans，
+         全站通过 var(--font-sans) 复用同一套字体栈。
+         字体栈按「先苹果/华为，再微软雅黑，最后兜底」的平台优先顺序排列：
+           -apple-system / BlinkMacSystemFont → macOS/iOS 与 Chrome 的系统字体；
+           "PingFang SC" → 苹方（macOS 中文）；"HarmonyOS Sans SC" → 鸿蒙（华为）；
+           "Microsoft YaHei" → 微软雅黑（Windows 中文）；"Noto Sans SC" → 安卓/开源中文；
+           最后 "Segoe UI"/Arial/sans-serif 兜底。 */
+      :root {
+        --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC",
+          "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans SC",
+          "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      }
+      /* 全局 reset：浏览器默认 body 8px 外边距会让深色 footer 底部露出一条缝隙，
+         始终无法贴到页面最底边；清零后 footer/各站背景都能顶满到底。 */
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+      /* 给 <html> 单独铺白底：页面内容整体是浅色主题，
+         而滚动到顶/底时的「橡皮筋」区域取的是 html 背景色，
+         不设会露出系统默认灰，与各站背景不连续。 */
+      html { background: #fff; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

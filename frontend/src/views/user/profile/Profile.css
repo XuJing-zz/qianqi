@@ -1,0 +1,145 @@
+
+
+
+
+
+.pf-card {
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.pf-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e8dfcc;
+}
+.pf-avatar {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+}
+.pf-avatar-glyph {
+  font-size: 40px;
+  color: #f5efe4;
+  font-weight: 700;
+}
+.pf-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.pf-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+}
+.pf-item {
+  display: flex;
+  padding: 14px 0;
+  border-bottom: 1px dashed #e8dfcc;
+  font-size: 14px;
+}
+.pf-item-full {
+  flex-direction: column;
+  gap: 8px;
+}
+.pf-label {
+  flex-shrink: 0;
+  width: 90px;
+  color: #a8937a;
+  letter-spacing: 2px;
+}
+.pf-value {
+  flex: 1;
+  color: #2b2117;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+.pf-bio {
+  color: #4a3b2a;
+}
+
+
+.pf-btn {
+  padding: 12px 32px;
+  background: #8b2e1c;
+  border: 1px solid #8b2e1c;
+  color: #f5efe4;
+  font-size: 14px;
+  letter-spacing: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.pf-btn:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+.pf-btn-ghost {
+  background: #f7f0e4;
+  border-color: #e0d5c0;
+  color: #6b5a44;
+  letter-spacing: 2px;
+  padding: 8px 18px;
+}
+.pf-btn-ghost:hover {
+  border-color: #8b2e1c;
+  color: #8b2e1c;
+  background: transparent;
+}
+
+
+.pf-guest-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 64px 32px;
+}
+.pf-guest-seal {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: radial-gradient(circle at 30% 20%, #b5533a, #8b2e1c 60%, #5a1d10);
+  color: #f5efe4;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.pf-guest-title {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #2b2117;
+  margin: 0 0 12px;
+}
+.pf-guest-desc {
+  font-size: 14px;
+  color: #a8937a;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin: 0 0 28px;
+  max-width: 320px;
+}
+
+
+@media (max-width: 860px) {
+  .pf-wrap {
+    grid-template-columns: 1fr;
+    padding: 24px 4vw 60px;
+  }
+}

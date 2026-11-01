@@ -1,0 +1,235 @@
+
+.acr-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 18px;
+  color: #6b5a44;
+  font-size: 13px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.acr-tab:hover {
+  border-color: #1c2a33;
+  color: #1c2a33;
+}
+.acr-tab-active {
+  background: #1c2a33;
+  border-color: #1c2a33;
+  color: #f5efe4;
+}
+.acr-tab-active .acr-tab-count {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.acr-cover-glyph {
+  font-size: 40px;
+  color: #8b2e1c;
+  font-weight: 700;
+}
+.acr-btn-pass {
+  background: #2e7d32;
+  border: 1px solid #2e7d32;
+  color: #fff;
+}
+.acr-btn-pass:hover {
+  background: #1b5e20;
+}
+.acr-btn-reject {
+  background: #fffcf5;
+  border: 1px solid #c62828;
+  color: #c62828;
+}
+.acr-btn-reject:hover {
+  background: #c62828;
+  color: #fff;
+}
+.acr-btn-offline {
+  background: #fffcf5;
+  border: 1px solid #9e9e9e;
+  color: #6b5a44;
+}
+.acr-btn-offline:hover {
+  background: #9e9e9e;
+  color: #fff;
+}
+.acr-btn-view {
+  background: #fffcf5;
+  border: 1px solid #1c2a33;
+  color: #1c2a33;
+}
+.acr-btn-view:hover {
+  background: #1c2a33;
+  color: #fff;
+}
+.acr-detail-field.acr-detail-block {
+  flex-direction: column;
+  gap: 6px;
+}
+.acr-detail-value {
+  color: #4a3b2a;
+  letter-spacing: 1px;
+  word-break: break-word;
+}
+.acr-detail-price {
+  color: #8b2e1c;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media (max-width: 860px) {
+  .acr-cover {
+    width: 80px;
+  }
+  .acr-cover-glyph {
+    font-size: 28px;
+  }
+}
+
+.acr-detail-glyph {
+  width: 84px;
+  height: 84px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #efe4d0, #d8c8ad);
+  color: #8b2e1c;
+  font-size: 32px;
+  font-weight: 700;
+}
+.acr-detail-headinfo .acr-detail-title {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.acr-link {
+  color: #1e6fb8;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.acr-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fbf8f0;
+  border: 1px solid #eadfc7;
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+.acr-lessons-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+.acr-lessons-head b {
+  font-size: 14px;
+  color: #8b2e1c;
+  letter-spacing: 1px;
+}
+.acr-lessons-count {
+  margin-left: auto;
+  font-size: 12px;
+  color: #a8937a;
+}
+.acr-lesson {
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed #dccfb0;
+}
+.acr-lesson:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+.acr-lesson-no {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.acr-lesson-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.acr-lesson-title {
+  font-size: 14px;
+  color: #2b2117;
+  letter-spacing: 0.5px;
+}
+.acr-lesson-state {
+  font-size: 11px;
+  border-radius: 10px;
+  padding: 1px 8px;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+.acr-vs-draft {
+  color: #9e9e9e;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+}
+.acr-vs-pending {
+  color: #b8860b;
+  background: #fdf6e3;
+  border: 1px solid #ecd9a8;
+}
+.acr-vs-approved {
+  color: #2e7d32;
+  background: #eaf6ec;
+  border: 1px solid #bfe0c4;
+}
+.acr-vs-rejected {
+  color: #c62828;
+  background: #fdf0f0;
+  border: 1px solid #e5c0c0;
+}
+.acr-lesson-desc {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #6b5a44;
+  word-break: break-word;
+}
+.acr-lesson-rej {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #c62828;
+}
+.acr-lesson-time {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #1e6fb8;
+  background: #f3f8fd;
+  border-radius: 6px;
+  padding: 2px 8px;
+  display: inline-block;
+}
+.acr-lesson-play {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #1e6fb8;
+  text-decoration: none;
+  border-bottom: 1px dashed #b7cfe8;
+}
+.acr-lesson-play:hover {
+  color: #0b4a85;
+}

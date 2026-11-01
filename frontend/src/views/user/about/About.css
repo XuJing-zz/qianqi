@@ -1,0 +1,231 @@
+
+.ab-hero-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 14px rgba(139, 46, 28, 0.25);
+}
+
+.ab-intro {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  padding: 48px 0;
+}
+.ab-lead {
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  color: #4a3b2a;
+  margin: 20px 0 16px;
+  font-weight: 600;
+}
+.ab-body {
+  font-size: 15px;
+  line-height: 2;
+  color: #6b5a44;
+  margin: 0;
+}
+.ab-intro-seal {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #8b2e1c;
+  border-radius: 8px;
+  background: #fffcf5;
+  box-shadow: inset 0 0 0 6px #f7f0e4;
+}
+.ab-seal-glyph {
+  font-size: 64px;
+  color: #8b2e1c;
+  font-weight: 700;
+  line-height: 1;
+}
+.ab-seal-caption {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #8b2e1c;
+  margin-top: 8px;
+}
+
+
+.ab-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.ab-value {
+  padding: 28px 24px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+.ab-value-glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.ab-value-title {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #2b2117;
+  margin: 0 0 12px;
+}
+.ab-value-desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.ab-do-item {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  padding: 24px 26px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+}
+.ab-do-head {
+  flex-shrink: 0;
+  width: 190px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+.ab-do-title {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #2b2117;
+  margin: 0;
+}
+.ab-do-desc {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.ab-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+.ab-stat {
+  padding: 30px 16px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+  text-align: center;
+}
+.ab-stat-num {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  color: #8b2e1c;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.ab-stat-label {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #6b5a44;
+}
+.ab-stats-note {
+  font-size: 12px;
+  color: #a8937a;
+  letter-spacing: 1px;
+  margin: 18px 0 0;
+  text-align: center;
+}
+
+.ab-cta {
+  margin-top: 44px;
+  padding: 44px;
+  text-align: center;
+  background: linear-gradient(135deg, #fdfaf2, #f7f0e4);
+  border: 1px dashed #d4c58a;
+  border-radius: 8px;
+}
+.ab-cta-title {
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #2b2117;
+  margin: 0 0 10px;
+}
+.ab-cta-sub {
+  font-size: 14px;
+  color: #6b5a44;
+  letter-spacing: 2px;
+  margin: 0 0 22px;
+}
+
+.ab-btn {
+  font-size: 14px;
+  padding: 11px 28px;
+  background: transparent;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.ab-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.ab-btn-solid {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.ab-btn-solid:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+
+@media (max-width: 860px) {
+  .ab-intro {
+    flex-direction: column;
+    gap: 28px;
+  }
+  .ab-intro-seal {
+    width: 130px;
+    height: 130px;
+  }
+  .ab-values {
+    grid-template-columns: 1fr;
+  }
+  .ab-do-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ab-do-head {
+    width: auto;
+  }
+  .ab-stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

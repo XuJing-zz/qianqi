@@ -1,0 +1,126 @@
+
+.ua-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 8vw 90px;
+}
+
+.ua-hero-note {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.ua-body {
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 8px;
+  padding: 40px 44px;
+}
+.ua-section {
+  padding: 22px 0;
+  border-bottom: 1px dashed #e8dfcc;
+}
+.ua-section:last-of-type {
+  border-bottom: none;
+}
+.ua-section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #2b2117;
+  margin: 0 0 14px;
+}
+.ua-section-num {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 14px;
+}
+.ua-para {
+  font-size: 14px;
+  line-height: 2;
+  color: #6b5a44;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+}
+.ua-para:last-child {
+  margin-bottom: 0;
+}
+.ua-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0 0 0 6px;
+}
+.ua-item {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #6b5a44;
+  padding-left: 18px;
+  margin-bottom: 6px;
+}
+.ua-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #cbb594;
+}
+
+.ua-foot {
+  margin-top: 30px;
+  padding-top: 26px;
+  border-top: 1px solid #e8dfcc;
+  text-align: center;
+}
+.ua-foot-line {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #a8937a;
+  letter-spacing: 1px;
+  margin: 0 0 8px;
+}
+
+.ua-btn {
+  font-size: 14px;
+  padding: 11px 30px;
+  background: transparent;
+  border: 1px solid #8b2e1c;
+  color: #8b2e1c;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: 16px;
+}
+.ua-btn:hover {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.ua-btn-solid {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.ua-btn-solid:hover {
+  background: transparent;
+  color: #8b2e1c;
+}
+
+@media (max-width: 600px) {
+  .ua-body {
+    padding: 28px 22px;
+  }
+}

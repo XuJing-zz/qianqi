@@ -1,0 +1,39 @@
+
+.alg-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fffcf5;
+  border: 1px solid #e0d5c0;
+  border-radius: 8px;
+  padding: 14px 18px;
+  transition: all 0.25s ease;
+}
+.alg-type {
+  flex-shrink: 0;
+  font-size: 12px;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+.alg-detail {
+  font-size: 13px;
+  color: #a8937a;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.alg-ip {
+  font-size: 12px;
+  color: #b8860b;
+  letter-spacing: 1px;
+  background: #fdf6e3;
+  border: 1px solid #ecd9a8;
+  border-radius: 10px;
+  padding: 1px 8px;
+  white-space: nowrap;
+}

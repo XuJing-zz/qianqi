@@ -1,0 +1,342 @@
+
+.archive-page {
+  min-height: 100vh;
+  background-color: #f5efe4;
+  background-image:
+    linear-gradient(180deg, rgba(245, 239, 228, 0.84), rgba(245, 239, 228, 0.84)),
+    url('/imgs/archive/list-texture.png');
+  background-size: auto, cover;
+  background-position: center top, center top;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+}
+
+.archive-list {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 48px 4vw 80px;
+}
+
+.archive-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efe4d0 url('/imgs/archive/list-banner.png') center 42% / cover no-repeat;
+}
+.archive-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(245, 239, 228, 0.42) 0%,
+    rgba(245, 239, 228, 0.64) 46%,
+    rgba(245, 239, 228, 0.84) 100%
+  );
+  pointer-events: none;
+}
+.archive-hero-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  padding: 48px 8vw;
+  box-sizing: border-box;
+  text-align: center;
+}
+.head-seal {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #8b2e1c;
+  color: #f5efe4;
+  font-size: 20px;
+  letter-spacing: 8px;
+  border-radius: 3px;
+  margin-bottom: 36px;
+}
+.head-title {
+  font-size: clamp(38px, 3.6vw, 68px);
+  letter-spacing: 20px;
+  text-indent: 10px;
+  color: #2b2117;
+  font-weight: 700;
+  margin: 0;
+}
+.head-en {
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 12px;
+  color: #a8937a;
+  text-transform: uppercase;
+}
+.head-line {
+  width: 1px;
+  height: 84px;
+  background: linear-gradient(180deg, #8b2e1c, transparent);
+  margin: 32px auto;
+}
+.head-note {
+  font-size: 22px;
+  letter-spacing: 6px;
+  color: #6b5a44;
+  margin: 0;
+}
+
+.al-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0d5c0;
+}
+.al-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.region-select {
+  padding: 8px 12px;
+  border: 1px solid #d8c8ad;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #2b2117;
+  background: #fffcf5;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.25s ease;
+}
+.al-tab {
+  padding: 8px 20px;
+  background: transparent;
+  border: 1px solid #d8c8ad;
+  color: #6b5a44;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.al-tab:hover {
+  border-color: #8b2e1c;
+  color: #8b2e1c;
+}
+.al-tab-active {
+  background: #8b2e1c;
+  border-color: #8b2e1c;
+  color: #f5efe4;
+}
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+.archive-card {
+  position: relative;
+  display: flex;
+  gap: 18px;
+  padding: 26px;
+  background: #fffcf5;
+  border: 1px solid #e8dfcc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.archive-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(43, 33, 23, 0.1);
+  border-color: #cbb594;
+}
+.card-glyph {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 30px;
+  color: #f5efe4;
+  background: #8b2e1c;
+  border-radius: 5px;
+}
+.card-name {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #2b2117;
+  margin: 0 0 4px;
+}
+.card-desc {
+  font-size: 16px;
+  color: #a8937a;
+  letter-spacing: 1px;
+  margin: 0 0 10px;
+}
+.card-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.card-tag {
+  font-size: 14px;
+  padding: 2px 9px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+.al-tag-national {
+  background: #8b2e1c;
+  color: #f5efe4;
+}
+.al-tag-province {
+  background: #efe4d0;
+  color: #7a5a32;
+}
+.card-origin {
+  font-size: 15px;
+  color: #a8937a;
+  letter-spacing: 1px;
+}
+.card-abstract {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b5a44;
+  margin: 0;
+  padding-right: 78px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-arrow {
+  position: absolute;
+  right: 26px;
+  bottom: 26px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #8b2e1c;
+  white-space: nowrap;
+  transition: transform 0.25s ease;
+}
+.archive-card:hover .card-arrow {
+  transform: translateX(4px);
+}
+
+.al-page-btn {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 6px;
+  background: transparent;
+  border: 1px solid #d8c8ad;
+  color: #6b5a44;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+.al-page-btn:hover:not(:disabled) {
+  border-color: #8b2e1c;
+  color: #8b2e1c;
+}
+.al-page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.al-page-active {
+  background: #8b2e1c;
+  border-color: #8b2e1c;
+  color: #f5efe4;
+}
+
+@media (max-width: 1400px) {
+  .archive-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .archive-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+@media (max-width: 960px) {
+  .al-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .al-toolbar-right {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 640px) {
+  .archive-card {
+    gap: 16px;
+    padding: 24px;
+  }
+  .card-glyph {
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 26px;
+  }
+  .card-name {
+    font-size: 19px;
+    letter-spacing: 2px;
+  }
+  .card-desc,
+  .card-abstract {
+    font-size: 14px;
+  }
+  .card-meta {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .card-tag {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+  .card-origin {
+    font-size: 12px;
+  }
+  .card-arrow {
+    right: 24px;
+    bottom: 24px;
+    font-size: 12px;
+  }
+  .card-abstract {
+    padding-right: 56px;
+  }
+  .archive-hero {
+    min-height: 46vh;
+  }
+  .head-seal {
+    padding: 6px 14px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+  .head-title {
+    font-size: 34px;
+    letter-spacing: 8px;
+    text-indent: 4px;
+  }
+  .head-en {
+    margin-top: 12px;
+    font-size: 13px;
+    letter-spacing: 6px;
+  }
+  .head-line {
+    height: 48px;
+    margin: 18px auto;
+  }
+  .head-note {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+}

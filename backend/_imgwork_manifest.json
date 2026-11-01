@@ -1,0 +1,300 @@
+{
+ "courses": [
+  {
+   "name": "半日髹漆体验 · 素色茶碗",
+   "craft": "髹漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "周末螺钿镶嵌体验",
+   "craft": "螺钿",
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "描金漆画进阶工作坊",
+   "craft": "描金",
+   "cover": "",
+   "status": "draft"
+  },
+  {
+   "name": "髹漆系统课程 · 基础班",
+   "craft": "髹漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "雕漆系统课程 · 刀法班",
+   "craft": "雕漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "平遥推光漆器 · 掌上推光工作坊",
+   "craft": "推光漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "福州脱胎漆器 · 夹纻制盏班",
+   "craft": "脱胎漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "徽州犀皮漆 · 打埝磨显班",
+   "craft": "犀皮漆",
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "楚风漆器 · 髹绘工作坊",
+   "craft": "髹漆彩绘",
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "雕填漆器 · 刻纹填彩入门",
+   "craft": "雕填漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "阳江漆器 · 腰果漆髹涂班",
+   "craft": "髹漆",
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "软螺钿镶嵌 · 贝华入漆体验",
+   "craft": "螺钿",
+   "cover": "",
+   "status": "draft"
+  },
+  {
+   "name": "绛州剔犀 · 云纹剔刻研修班",
+   "craft": "剔犀",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "扬州点螺 · 细嵌工艺体验",
+   "craft": "扬州漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "苏州款彩 · 刻灰填彩挂屏班",
+   "craft": "款彩",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "厦门漆线雕 · 盘线贴金体验",
+   "craft": "漆线雕",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "天台夹苎脱胎 · 裱塑入门班",
+   "craft": "夹苎脱胎",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "宁波泥金彩漆 · 描金堆塑体验",
+   "craft": "泥金彩漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "平阳漆器 · 宋韵髹涂工作坊",
+   "craft": "平阳漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "坝漆采制 · 走进漆林第一课",
+   "craft": "制漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "重庆漆器 · 研磨彩绘班",
+   "craft": "研磨彩绘",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "彝族漆器 · 三色手绘体验",
+   "craft": "彝族漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "凤翔罩金漆器 · 藏金于漆体验",
+   "craft": "罩金漆器",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "潍坊嵌银髹漆 · 银丝入木工作坊",
+   "craft": "嵌银髹漆",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "上海平磨螺钿 · 素髹揩清班",
+   "craft": "平磨螺钿",
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "潮汕金漆画 · 铁笔描金班",
+   "craft": "金漆画",
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "傣族漆器 · 竹胎髹彩工作坊",
+   "craft": "髹漆",
+   "cover": "",
+   "status": "draft"
+  },
+  {
+   "name": "昭通漆刻 · 剔刻填彩班",
+   "craft": "漆刻",
+   "cover": "",
+   "status": "pending"
+  }
+ ],
+ "products": [
+  {
+   "name": "犀皮描金茶盏",
+   "craft": "犀皮",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "雕漆云纹果盘",
+   "craft": "雕漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "剔犀云纹茶碗",
+   "craft": "剔犀",
+   "saleable": false,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "螺钿首饰盒",
+   "craft": "螺钿",
+   "saleable": true,
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "款彩山水挂屏",
+   "craft": "款彩",
+   "saleable": false,
+   "cover": "",
+   "status": "rejected"
+  },
+  {
+   "name": "推光漆 · 描金缠枝首饰匣",
+   "craft": "推光漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "脱胎漆器 · 蝉纹主人杯",
+   "craft": "脱胎漆器",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "脱胎漆器 · 福寿寿桃摆瓶",
+   "craft": "脱胎漆器",
+   "saleable": true,
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "点螺 · 千里江山茶台",
+   "craft": "点螺",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "犀皮漆 · 云纹主人杯",
+   "craft": "犀皮漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "楚式漆器 · 凤鸟纹圆奁盒",
+   "craft": "髹漆彩绘",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "软螺钿 · 缠枝莲纹盘",
+   "craft": "螺钿",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "剔犀 · 如意云纹执壶",
+   "craft": "剔犀",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "嵌银髹漆 · 紫檀笔筒",
+   "craft": "嵌银髹漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "雕漆 · 青绿山水挂屏",
+   "craft": "雕漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "阳江漆器 · 提梁食盒",
+   "craft": "髹漆",
+   "saleable": true,
+   "cover": "",
+   "status": "approved"
+  },
+  {
+   "name": "金漆镶嵌 · 百宝嵌插屏",
+   "craft": "金漆镶嵌",
+   "saleable": false,
+   "cover": "",
+   "status": "pending"
+  },
+  {
+   "name": "干漆夹苎 · 水月观音",
+   "craft": "夹苎脱胎",
+   "saleable": false,
+   "cover": "",
+   "status": "approved"
+  }
+ ]
+}
